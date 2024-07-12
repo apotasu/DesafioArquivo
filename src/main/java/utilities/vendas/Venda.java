@@ -1,10 +1,7 @@
-package Utilities.Vendas;
+package utilities.vendas;
 
 public class Venda {
-    int ItemID;
-    int quantidadeItem;
-    int precoItem;
-
+    private Item item;
     public Venda(int itemID, int quantidadeItem, int precoItem) {
         ItemID = itemID;
         this.quantidadeItem = quantidadeItem;

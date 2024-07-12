@@ -1,8 +1,8 @@
-package Utilities.Pessoas;
+package utilities.pessoas;
 
-import Utilities.Ferramentas.Tipos;
+import utilities.ferramentas.Tipos;
 
-public class Pessoa {
+public abstract class Pessoa {
     private String nome;
     private Tipos tipo;
 
@@ -26,12 +26,5 @@ public class Pessoa {
         this.tipo = tipo;
     }
 
-    @Override
-    public String toString() {
-        return "Pessoa{" +
-                "nome='" + nome + '\'' +
-                ", tipo=" + tipo +
-                '}';
-    }
 }
 

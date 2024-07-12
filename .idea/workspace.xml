@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a31891e6-92da-408c-8621-3069c4a19b5b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/vendas/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Ferramentas/Arquivos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Ferramentas/Arquivos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Dados/Estatisticas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/dados/Estatisticas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Ferramentas/Arquivos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/ferramentas/Arquivos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Ferramentas/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/ferramentas/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Ferramentas/Tipos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/ferramentas/Tipos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Pessoas/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/pessoas/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Pessoas/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/pessoas/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Pessoas/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/pessoas/Vendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Vendas/Venda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/vendas/Venda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +86,7 @@
       <updated>1720787336588</updated>
       <workItem from="1720787337668" duration="60000" />
       <workItem from="1720787441213" duration="3781000" />
+      <workItem from="1720805759394" duration="784000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,4 @@
-package Utilities.Dados;
+package utilities.dados;
 
 public class Estatisticas {
 }

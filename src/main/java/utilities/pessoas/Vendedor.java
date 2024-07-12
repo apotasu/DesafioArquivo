@@ -1,20 +1,16 @@
-package Utilities.Pessoas;
+package utilities.pessoas;
 
 public class Vendedor extends Pessoa{
-    private int CNPJ;
+    private int cnpj;
     private int Salario;
-    public Vendedor(String nome, int CNPJ, int Salario) {
+    public Vendedor(String nome, int cnpj, int Salario) {
         super(nome);
-        this.CNPJ = CNPJ;
+        this.cnpj = cnpj;
         this.Salario = Salario;
     }
 
-    public int getCNPJ() {
-        return CNPJ;
-    }
-
-    public void setCNPJ(int CNPJ) {
-        this.CNPJ = CNPJ;
+    public int getcnpj() {
+        return cnpj;
     }
 
     public int getSalario() {
@@ -28,7 +24,7 @@ public class Vendedor extends Pessoa{
     @Override
     public String toString() {
         return "Vendedor{" +
-                "CNPJ=" + CNPJ +
+                "cnpj=" + cnpj +
                 ", Salario=" + Salario +
                 '}';
     }
