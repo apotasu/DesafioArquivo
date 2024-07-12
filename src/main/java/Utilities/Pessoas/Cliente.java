@@ -24,4 +24,12 @@ public class Cliente extends Pessoa{
     public void setBussinessArea(String bussinessArea) {
         BussinessArea = bussinessArea;
     }
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "CPF=" + CPF +
+                ", BussinessArea='" + BussinessArea + '\'' +
+                '}';
+    }
 }

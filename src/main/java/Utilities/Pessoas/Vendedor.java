@@ -24,4 +24,12 @@ public class Vendedor extends Pessoa{
     public void setSalario(int salario) {
         Salario = salario;
     }
+
+    @Override
+    public String toString() {
+        return "Vendedor{" +
+                "CNPJ=" + CNPJ +
+                ", Salario=" + Salario +
+                '}';
+    }
 }
