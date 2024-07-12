@@ -9,7 +9,7 @@ public class Calculadora {
         this.venda = venda;
     }
 
-    public int calcularCustoCompra(){
+    public float calcularCustoCompra(){
         return venda.getPrecoItem()*venda.getQuantidadeItem();
     }
 

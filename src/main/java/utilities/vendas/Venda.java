@@ -7,7 +7,7 @@ public class Venda {
     private Item item;
     private Vendedor vendedor;
     private int idVenda;
-    public Venda(int idVenda, int quantidadeItem, int itemId, int precoItem) {
+    public Venda(int idVenda, int quantidadeItem, int itemId, float precoItem) {
         item = new Item(itemId, precoItem);
         this.idVenda = idVenda;
         this.quantidadeItem = quantidadeItem;
@@ -17,7 +17,7 @@ public class Venda {
         return quantidadeItem;
     }
 
-    public int getPrecoItem() {
+    public float getPrecoItem() {
         return item.getPreco();
     }
 }

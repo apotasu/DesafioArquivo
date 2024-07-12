@@ -34,9 +34,12 @@ public class Arquivos {
                     System.out.println(cliente.toString());
                     break;
                 case 003:
-                //    Venda venda = new Venda();
+                    newVenda(conteudo.get(1));
                     break;
 
         }
+    }
+    public void newVenda(String conteudo){
+        ArrayList<String> dadosVenda = new ArrayList<>(Arrays.asList(conteudo.split("[,\\[\\]-]\n")));
     }
 }

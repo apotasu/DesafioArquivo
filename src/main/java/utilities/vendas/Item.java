@@ -2,9 +2,9 @@ package utilities.vendas;
 
 public class Item {
     private int id;
-    private int preco;
+    private float preco;
 
-    public Item(int id, int preco) {
+    public Item(int id, float preco) {
         this.id = id;
         this.preco = preco;
     }
@@ -13,7 +13,7 @@ public class Item {
         return id;
     }
 
-    public int getPreco() {
+    public float getPreco() {
         return preco;
     }
 
