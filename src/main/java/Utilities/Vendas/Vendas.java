@@ -1,4 +1,4 @@
 package Utilities.Vendas;
 
-public class poo {
+public class Vendas {
 }
