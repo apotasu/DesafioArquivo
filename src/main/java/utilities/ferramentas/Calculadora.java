@@ -1,6 +1,6 @@
-package Utilities.Ferramentas;
+package utilities.ferramentas;
 
-import Utilities.Vendas.Venda;
+import utilities.vendas.Venda;
 
 public class Calculadora {
     private Venda venda;
