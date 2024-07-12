@@ -1,19 +1,19 @@
 package utilities.pessoas;
 
 public class Vendedor extends Pessoa{
-    private int cnpj;
-    private int Salario;
-    public Vendedor(String nome, int cnpj, int Salario) {
+    private String cpf;
+    private float Salario;
+    public Vendedor(String cpf, String nome , float Salario) {
         super(nome);
-        this.cnpj = cnpj;
+        this.cpf = cpf;
         this.Salario = Salario;
     }
 
-    public int getcnpj() {
-        return cnpj;
+    public String getcpf() {
+        return cpf;
     }
 
-    public int getSalario() {
+    public float getSalario() {
         return Salario;
     }
 
@@ -24,7 +24,8 @@ public class Vendedor extends Pessoa{
     @Override
     public String toString() {
         return "Vendedor{" +
-                "cnpj=" + cnpj +
+                "cpf=" + cpf +
+                "nome="+getNome()+
                 ", Salario=" + Salario +
                 '}';
     }

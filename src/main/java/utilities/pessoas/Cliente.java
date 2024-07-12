@@ -1,16 +1,16 @@
 package utilities.pessoas;
 
 public class Cliente extends Pessoa{
-    private int cpf;
+    private String cnpj;
     private String bussinessArea;
-    public Cliente(String nome, int cpf, String bussinessArea) {
+    public Cliente(String cnpj,String nome, String bussinessArea) {
         super(nome);
-        this.cpf = cpf;
+        this.cnpj = cnpj;
         this.bussinessArea = bussinessArea;
     }
 
-    public int getcpf() {
-        return cpf;
+    public String getcnpj() {
+        return cnpj;
     }
     
 
@@ -25,7 +25,8 @@ public class Cliente extends Pessoa{
     @Override
     public String toString() {
         return "Cliente{" +
-                "cpf=" + cpf +
+                "cnpj=" + cnpj +
+                "nome=" +getNome()+
                 ", bussinessArea='" + bussinessArea + '\'' +
                 '}';
     }
