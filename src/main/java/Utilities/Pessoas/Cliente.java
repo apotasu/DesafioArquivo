@@ -1,5 +1,7 @@
 package Utilities.Pessoas;
 
+import Utilities.Ferramentas.Enum.Tipos;
+
 public class Cliente extends Pessoa{
     private int CPF;
     private String BussinessArea;
@@ -23,5 +25,13 @@ public class Cliente extends Pessoa{
 
     public void setBussinessArea(String bussinessArea) {
         BussinessArea = bussinessArea;
+    }
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "CPF=" + CPF +
+                ", BussinessArea='" + BussinessArea + '\'' +
+                '}';
     }
 }

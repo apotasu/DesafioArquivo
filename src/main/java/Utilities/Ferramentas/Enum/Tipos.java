@@ -1,4 +1,4 @@
-package Utilities.Ferramentas;
+package Utilities.Ferramentas.Enum;
 
 public enum Tipos {
     VENDEDOR, CLIENTE, VENDA
