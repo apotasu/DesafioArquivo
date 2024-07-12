@@ -1,7 +1,5 @@
 package Utilities.Pessoas;
 
-import Utilities.Ferramentas.Enum.Tipos;
-
 public class Cliente extends Pessoa{
     private int CPF;
     private String BussinessArea;

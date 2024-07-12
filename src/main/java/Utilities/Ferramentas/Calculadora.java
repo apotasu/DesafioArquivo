@@ -1,4 +1,4 @@
-package Utilities.Ferramentas.Calculadora;
+package Utilities.Ferramentas;
 
 import Utilities.Vendas.Venda;
 

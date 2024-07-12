@@ -1,6 +1,6 @@
 package Utilities.Pessoas;
 
-import Utilities.Ferramentas.Enum.Tipos;
+import Utilities.Ferramentas.Tipos;
 
 public class Pessoa {
     private String nome;
