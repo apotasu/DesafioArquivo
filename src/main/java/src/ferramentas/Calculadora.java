@@ -3,20 +3,13 @@ package src.ferramentas;
 import src.vendas.Venda;
 
 public class Calculadora {
-    private Venda venda;
 
-    public Calculadora(Venda venda){
-        this.venda = venda;
+    public Calculadora(){
+
     }
 
-    public float calcularCustoCompra(){
+    public float calcularCustoCompra(Venda venda){
         return venda.getPrecoItem()*venda.getQuantidadeItem();
     }
 
-    @Override
-    public String toString() {
-        return "Calculadora{" +
-                "venda=" + venda +
-                '}';
-    }
 }

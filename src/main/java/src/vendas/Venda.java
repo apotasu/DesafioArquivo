@@ -21,6 +21,17 @@ public class Venda {
     public float getPrecoItem() {
         return item.getPreco();
     }
+    public Item getItem(){
+        return item;
+    }
+
+    public String getVendedor() {
+        return vendedor;
+    }
+
+    public int getIdVenda() {
+        return idVenda;
+    }
 
     @Override
     public String toString() {
