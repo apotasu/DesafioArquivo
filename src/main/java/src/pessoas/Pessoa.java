@@ -1,6 +1,6 @@
-package utilities.pessoas;
+package src.pessoas;
 
-import utilities.ferramentas.Tipos;
+import src.ferramentas.Tipos;
 
 public abstract class Pessoa {
     private String nome;

@@ -1,6 +1,6 @@
-package utilities.ferramentas;
+package src.ferramentas;
 
-import utilities.vendas.Venda;
+import src.vendas.Venda;
 
 public class Calculadora {
     private Venda venda;
@@ -9,7 +9,7 @@ public class Calculadora {
         this.venda = venda;
     }
 
-    public int calcularCustoCompra(){
+    public float calcularCustoCompra(){
         return venda.getPrecoItem()*venda.getQuantidadeItem();
     }
 
