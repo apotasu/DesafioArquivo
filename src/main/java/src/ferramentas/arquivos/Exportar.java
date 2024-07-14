@@ -10,6 +10,7 @@ public class Exportar {
     private Estatisticas estatisticas;
     private String nomeArquivo;
     public Exportar(String nomeArquivo){
+        this.nomeArquivo = nomeArquivo;
         estatisticas = new Estatisticas(nomeArquivo);
     }
 

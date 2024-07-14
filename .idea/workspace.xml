@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a31891e6-92da-408c-8621-3069c4a19b5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/ferramentas/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/ferramentas/Arquivos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/ferramentas/Arquivos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/pessoas/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/pessoas/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/pessoas/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/pessoas/Vendedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/vendas/Venda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/vendas/Venda.java" afterDir="false" />
-    </list>
+    <list default="true" id="a31891e6-92da-408c-8621-3069c4a19b5b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.DesafioArquivo [:Main.main()].executor": "Run",
     "Gradle.DesafioArquivo [:main.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -66,6 +60,26 @@
       <recent name="" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Main" />
+      <module name="DesafioArquivo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -83,11 +97,36 @@
       <updated>1720787336588</updated>
       <workItem from="1720787337668" duration="60000" />
       <workItem from="1720787441213" duration="3781000" />
-      <workItem from="1720805759394" duration="5749000" />
+      <workItem from="1720805759394" duration="36860000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/src/ferramentas/Calculadora.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/src/ferramentas/Calculadora.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/src/ferramentas/Calculadora.java</url>
+          <line>10</line>
+          <properties class="src.ferramentas.Calculadora" method="calcularCustoCompra">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
