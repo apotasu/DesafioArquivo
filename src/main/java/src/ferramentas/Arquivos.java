@@ -34,15 +34,18 @@ public class Arquivos {
                     System.out.println(cliente.toString());
                     break;
                 case "003":
-                    ArrayList<String> dadosVenda = new ArrayList<>(Arrays.asList(conteudo.get(2).split("[,-]")));
-                    Venda venda = new Venda(Integer.parseInt(conteudo.get(0)),Integer.parseInt(dadosVenda.get(1)),Integer.parseInt(dadosVenda.get(2)),Float.parseFloat(dadosVenda.get(3)),dadosVenda.get(4));
-                    System.out.println(venda.toString());
+                    newVenda(conteudo);
                     break;
 
         }
     }
-    public void newVenda(String conteudo){
-        ArrayList<String> dadosVenda = new ArrayList<>(Arrays.asList(conteudo.split("[,-]")));
-        System.out.println(conteudo);
+    public void newVenda(ArrayList<String> conteudo){
+        ArrayList<String> dadosVenda = new ArrayList<>(Arrays.asList(conteudo.get(2).split("[,-]")));
+        int idVenda = Integer.parseInt(conteudo.get(1));
+        for (int i = 0; i<dadosVenda.size(); i+=2){
+
+        }
+        Venda venda = new Venda(Integer.parseInt(conteudo.get(1)), Integer.parseInt(dadosVenda.get(0).substring(1,2)), Integer.parseInt(dadosVenda.get(1)), Float.parseFloat(dadosVenda.get(2)), conteudo.get(3));
+        System.out.println(venda.toString());
     }
 }
