@@ -1,4 +1,4 @@
-package utilities.pessoas;
+package src.pessoas;
 
 public class Vendedor extends Pessoa{
     private String cpf;

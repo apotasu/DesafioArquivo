@@ -1,4 +1,4 @@
-package utilities.vendas;
+package src.vendas;
 
 public class Item {
     private int id;
@@ -19,5 +19,13 @@ public class Item {
 
     public void setPreco(int preco) {
         this.preco = preco;
+    }
+
+    @Override
+    public String toString() {
+        return "Item{" +
+                "id=" + id +
+                ", preco=" + preco +
+                '}';
     }
 }

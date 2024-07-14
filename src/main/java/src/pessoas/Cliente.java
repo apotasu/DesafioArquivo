@@ -1,4 +1,4 @@
-package utilities.pessoas;
+package src.pessoas;
 
 public class Cliente extends Pessoa{
     private String cnpj;

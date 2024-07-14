@@ -1,6 +1,8 @@
-package utilities.ferramentas;
+package src;
 
-public class main {
+import src.ferramentas.Arquivos;
+
+public class Main {
     public static void main(String args[]){
         Arquivos arqv = new Arquivos();
         arqv.importarArquivo("faggot");
